@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Producten Beheer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🛍️ Producten Beheer</h1>
+
+        <div class="add-product-card">
+            <h2>Nieuw Product Toevoegen</h2>
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Productnaam">
+                <input type="number" id="price" placeholder="Prijs (€)" step="0.01" min="0">
+            </div>
+            <button class="btn-add" id="button">➕ Product Toevoegen</button>
+        </div>
+
+        <div class="products-section">
+            <h2>Mijn Producten</h2>
+            <div id="products"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
